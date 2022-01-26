@@ -1,3 +1,13 @@
+#' @export
+#' @title Check Cover Sheet Completeness
+#'
+#' @param folder 
+#' @param fileHasHeader 
+#' @param de_map 
+#' @param d2_default_session 
+#'
+#' @return
+#'
 checkCoverSheetCompleteness <- function(folder,fileHasHeader,de_map,d2_default_session){
   #get coversheet data elements
   url <- paste0(d2_default_session$base_url, "api/dataElements.json?fields=code&filter=code:ilike:SIMS.CS&filter=dataSetElements.dataSet.code:like:SIMS4_&paging=false")

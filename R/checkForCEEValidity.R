@@ -1,3 +1,13 @@
+#' @export
+#' @title Check for CEE Validity
+#'
+#' @param folder 
+#' @param fileHasHeader 
+#' @param de_map 
+#' @param bad_data_values 
+#'
+#' @return
+#'
 checkForCEEValidity <- function(folder,fileHasHeader, de_map, bad_data_values){
 
   #data elements in file to validate

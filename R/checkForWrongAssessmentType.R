@@ -1,3 +1,12 @@
+#' @export
+#' @title Check For Wrong Assessment Type
+#'
+#' @param folder 
+#' @param fileHasHeader 
+#' @param de_map 
+#'
+#' @return
+#'
 checkForWrongAssessmentType <- function(folder,fileHasHeader,de_map){
   require(datimvalidation)
 

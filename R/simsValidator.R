@@ -1,4 +1,21 @@
 
+#' @export
+#' @title SIMS Validator
+#'
+#' @param folder 
+#' @param filename 
+#' @param file_type 
+#' @param idScheme 
+#' @param dataElementIdScheme 
+#' @param orgUnitIdScheme 
+#' @param isoPeriod 
+#' @param fileHasHeader 
+#' @param d2_default_session 
+#' @param dataSets 
+#'
+#' @return
+#' @export
+#'
 simsValidator <- function (folder,filename,file_type,idScheme,dataElementIdScheme,orgUnitIdScheme,isoPeriod,fileHasHeader,d2_default_session,dataSets) {
     #require(datimvalidation)
 

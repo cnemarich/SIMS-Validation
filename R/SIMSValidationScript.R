@@ -1,3 +1,19 @@
+#' @export
+#' @title SIMS Validation Script
+#'
+#' @param out_dir 
+#' @param filename 
+#' @param file_type 
+#' @param idScheme 
+#' @param dataElementIdScheme 
+#' @param orgUnitIdScheme 
+#' @param isoPeriod 
+#' @param fileHasHeader 
+#' @param secrets 
+#' @param dataSets 
+#'
+#' @return
+#'
 SIMSValidationScript <- function(out_dir,filename,file_type,idScheme,dataElementIdScheme,orgUnitIdScheme,isoPeriod,fileHasHeader,secrets,dataSets){
 require(datimvalidation)
 d2s <- datimutils::loginToDATIM(config_path = secrets)

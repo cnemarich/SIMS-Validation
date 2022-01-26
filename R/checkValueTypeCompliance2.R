@@ -1,3 +1,10 @@
+#' @export
+#' @title Check Value Type Compliance 2
+#'
+#' @param d 
+#'
+#' @return
+#'
 checkValueTypeCompliance2 <- function (d){
   library(dplyr)
   url <- URLencode(paste0(d2_default_session$base_url, "api/", api_version(),
